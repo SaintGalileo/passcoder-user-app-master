@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662392717121",
+    "project_id": "passcoder-identity",
+    "storage_bucket": "passcoder-identity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662392717121:android:5f637967ce0f47acb0ebc0",
+        "android_client_info": {
+          "package_name": "com.passcoder.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662392717121-td77i85idl24sulk59o9ek7c86gdgv13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvWDfixlOKdKQEsmVFSVMAiSHQ_4h1-18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662392717121-td77i85idl24sulk59o9ek7c86gdgv13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

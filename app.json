@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Passcoder",
+    "slug": "passcoder",
+    "version": "1.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/passer.png",
+    "scheme": "passcoder",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/pass.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/f779eaf2-4db4-4f2a-8781-1d37a0264f4d",
+      "enabled": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.passcoder.ios",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/passer.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.passcoder.android",
+      "versionCode": 8,
+      "blockedPermissions": [
+        "com.google.android.gms.permission.AD_ID"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f779eaf2-4db4-4f2a-8781-1d37a0264f4d"
+      }
+    },
+    "owner": "passcoder",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "plugins": [
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow Passcoder to use Face ID for authentication."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Passcoder to access your camera for selfie image capture for your profile."
+        }
+      ],
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      "react-native-compressor"
+    ]
+  }
+}
